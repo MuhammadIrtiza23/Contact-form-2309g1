@@ -1,0 +1,30 @@
+body{
+    background-image: url(./pexels-photo-1787044.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.048);
+box-shadow: 0 8px 32px 0 rgba(25, 25, 26, 0.555);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input,textarea{
+    margin-bottom: 3% ;
+    width: 18em;
+    background-color: rgba(0, 0, 0, 0.637);
+    border: none;
+    color: white;
+}
